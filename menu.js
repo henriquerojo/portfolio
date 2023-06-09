@@ -12,7 +12,7 @@ function toggleMenu(event)
     event.currentTarget.setAttribute('aria-expanded', 'true');
     if (active) 
     {
-    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+        event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
     }
     else
     {
