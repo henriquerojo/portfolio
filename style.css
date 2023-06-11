@@ -143,55 +143,135 @@ a:hover
 /* INÍCIO ÁREA INICIAL */
 #area-inicial
 {
-    display: flex;
-}
-
-#area-inicial picture
-{
-    display: inline-block;
-    width: 55%;
-}
-
-#area-inicial section
-{
-    display: inline-block;
-    width: 45%;
-}
-
-.alinha
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
     width: 100%;
+    height: 700px;
+    background: linear-gradient(0, #120c56, #000000);
+}
+
+.stars
+{
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+    100px 80px white,
+    80px 120px white,
+    300px 20px white,
+    250px 130px white,
+    200px 50px white,
+    150px 100px white,
+    320px 100px white,
+    450px 150px white,
+    500px 150px white,
+    600px 200px white,
+    550px 200px white,
+    650px 250px white,
+    680px 250px white,
+    1000px 300px white,
+    1000px 400px white,
+    1500px 350px white,
+    800px 500px white,
+    900px 700px white,
+    1450px 150px white,
+    1430px 150px white,
+    1550px 20px white,
+    1600px 80px white,
+    675px 130px white,
+    1700px 200px white,
+    2200px 80px white,
+    3000px 70px white;
+
+    animation: anim-stars 10s linear infinite;
+    position: relative;
+	width: 3px;
+	height: 3px;
+}
+
+@keyframes anim-stars 
+{
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-150px);
+    }
+}
+
+.stars::after
+{
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 3px;
+    height: 3px;
+    border-radius: 50%;
+    box-shadow: 50px 30px white,
+      100px 80px white,
+      80px 120px white,
+      300px 20px white,
+      250px 130px white,
+      200px 50px white,
+      150px 100px white,
+      320px 100px white;
+}
+
+.stars2
+{
+    position: relative;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px white,
+      125px 35px white,
+      50px 80px white,
+      10px 120px white,
+      275px 90px white,
+      230px 10px white,
+      120px 130px white,
+      300px 130px white,
+      220px 115px white;
+    animation: anim-stars 20s linear infinite;
+}
+  
+.stars2::after
+{
+    content: " ";
+    position: absolute;
+    top: 150px;
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    box-shadow: 15px 15px white,
+      125px 35px white,
+      50px 80px white,
+      10px 120px white,
+      275px 90px white,
+      230px 10px white,
+      120px 130px white,
+      300px 130px white,
+      220px 115px white;
+}  
+
+#texto-ai
+{
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    width: 100%; 
     height: 100%;
 }
 
-#area-inicial picture div img
+#texto-ai h1
 {
-    width: 100%;
+    color: white;
+    font-family: fonte4;
+    font-size: 30pt;
 }
 
-@font-face 
+#texto-ai h1 span
 {
-    font-family: fonte;
-    src: url(font/fonte.TTF);
-}
-
-#portfolio
-{
-    color: blue;
-    font-weight: bold;
-    font-family: fonte;
-    font-size: 25pt;
-}
-
-#henrique
-{
-    color:black;
-    font-weight: normal;
-    font-family: sans-serif;
+    color: orange;
 }
 /* FIM ÁREA INICIAL */
 
