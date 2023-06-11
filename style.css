@@ -56,9 +56,9 @@ a:hover
     cursor: pointer;
 }
 
-/* INÍCIO MENU MOBILE*/
+/* INÍCIO MENU MOBILE */
 
-@media (max-width: 600px)
+@media (max-width: 4000px)
 {
     #btn-mobile
     {
@@ -136,7 +136,7 @@ a:hover
     }
 }
 
-/* FIM MENU MOBILE*/
+/* FIM MENU MOBILE */
 
 /* FIM HEADER */
 
