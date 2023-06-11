@@ -181,7 +181,7 @@ a:hover
 
 #portfolio
 {
-    color: red;
+    color: blue;
     font-weight: bold;
     font-family: fonte;
     font-size: 25pt;
@@ -194,3 +194,117 @@ a:hover
     font-family: sans-serif;
 }
 /* FIM ÁREA INICIAL */
+
+/* INÍCIO RODAPÉ */
+
+#footer
+{
+    margin-top: 10px;
+    padding-top: 10px;
+    background-color: #e7e7e7;
+}
+
+#footer article
+{
+    display: flex;
+    width: 100%;
+}
+
+#footer article section
+{
+    display: inline-block;
+}
+
+#redessociais
+{
+    width: 50%;
+}
+
+#mapadosite
+{
+    width: 50%;
+    list-style: none;
+}
+
+#copyright
+{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+}
+
+#copyright h4
+{
+    color: white;
+}
+
+.map-linha
+{
+    border: 1px solid #3b5efa;
+    width: 100px;
+    margin: 0 auto;
+}
+
+#mg-icon-map-gh
+{
+    margin-right: 5px;
+}
+
+#mg-icon-map-lk
+{
+    margin-left: 5px;
+}
+
+.al-ft
+{
+    display: flex;
+    justify-content: center;
+}
+
+#icon-rs
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#txt-ms
+{
+    display: flex;
+    justify-content: space-around; 
+    margin-top: 10px;
+}
+
+#txt-ms a
+{
+    padding: 10px;
+    font-family: fonte4;
+    font-size: 15pt;
+}
+
+#txt-ms a:hover
+{
+    color:white;
+    transition: .3s;
+    background-color: blue;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.txt-mpst
+{
+    font-weight: bold;
+    font-family: fonte4;
+    font-size: 20pt;
+}
+
+#icon-rs a:hover
+{
+    color: blue;
+}
+
+@font-face {
+    font-family: fonte4;
+    src: url(font/fonte4.ttf);
+}
+/* FIM RODAPÉ */
