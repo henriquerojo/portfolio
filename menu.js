@@ -22,3 +22,8 @@ function toggleMenu(event)
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+window.addEventListener("scroll", function () {
+    let header = document.querySelector('#header')
+    header.classList.toggle('rolagem', window.scrollY > 0)
+})

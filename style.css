@@ -34,7 +34,25 @@ a:hover
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: .3s;
+}
+
+header a, nav button
+{
+    color: white;
+}
+
+header.rolagem
+{
     background-color: #e7e7e7;
+}
+header.rolagem a, header.rolagem nav button
+{
+    color: black;
 }
 
 #menu
