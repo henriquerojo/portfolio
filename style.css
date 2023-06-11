@@ -7,7 +7,7 @@
 }
 /* FIM RESET CSS */
 
-
+/* INÍCIO HEADER */
 a 
 {
     color:black;
@@ -55,6 +55,8 @@ a:hover
     display: none;
     cursor: pointer;
 }
+
+/* INÍCIO MENU MOBILE*/
 
 @media (max-width: 600px)
 {
@@ -133,3 +135,62 @@ a:hover
         top: -7px;
     }
 }
+
+/* FIM MENU MOBILE*/
+
+/* FIM HEADER */
+
+/* INÍCIO ÁREA INICIAL */
+#area-inicial
+{
+    display: flex;
+}
+
+#area-inicial picture
+{
+    display: inline-block;
+    width: 55%;
+}
+
+#area-inicial section
+{
+    display: inline-block;
+    width: 45%;
+}
+
+.alinha
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+}
+
+#area-inicial picture div img
+{
+    width: 100%;
+}
+
+@font-face 
+{
+    font-family: fonte;
+    src: url(font/fonte.TTF);
+}
+
+#portfolio
+{
+    color: red;
+    font-weight: bold;
+    font-family: fonte;
+    font-size: 25pt;
+}
+
+#henrique
+{
+    color:black;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+/* FIM ÁREA INICIAL */
