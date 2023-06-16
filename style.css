@@ -8,16 +8,25 @@
 /* FIM RESET CSS */
 
 /* INÍCIO HEADER */
-a 
+#header a
 {
-    color:black;
     text-decoration: none;
-    font-family: sans-serif;    
+    font-family: fonte4;
+    font-weight: bold;
 }
 
-a:hover
+#menu li a 
 {
-    background: rgba(0,0,0, .05);
+    color: white;
+    text-decoration: none;
+    font-family: fonte4;
+    font-size: 15pt;  
+}
+
+#menu li a:hover
+{
+    color: blue;
+    transition: .3s;
 }
 
 #logo
@@ -50,9 +59,25 @@ header.rolagem
 {
     background-color: #e7e7e7;
 }
-header.rolagem a, header.rolagem nav button
+header.rolagem a
 {
     color: black;
+}
+
+header.rolagem #menu a
+{
+    color: black;
+    text-decoration: none;
+    font-family: fonte4;  
+    font-weight: bold; 
+}
+
+header.rolagem #menu a:hover
+{
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    transition: .3s;
 }
 
 #menu
@@ -76,7 +101,7 @@ header.rolagem a, header.rolagem nav button
 
 /* INÍCIO MENU MOBILE */
 
-@media (max-width: 4000px)
+@media (max-width: 600px)
 {
     #btn-mobile
     {
@@ -118,6 +143,13 @@ header.rolagem a, header.rolagem nav button
     }
 
     #hamburguer
+    {
+        width: 20px;
+        border-top: 2px solid;
+        color: white;
+    }
+
+    #hamburguer.rolagem
     {
         width: 20px;
         border-top: 2px solid;
@@ -366,6 +398,11 @@ header.rolagem a, header.rolagem nav button
     margin-top: 10px;
 }
 
+#icon-rs a 
+{
+    color: black;
+}
+
 #txt-ms
 {
     display: flex;
@@ -378,6 +415,8 @@ header.rolagem a, header.rolagem nav button
     padding: 10px;
     font-family: fonte4;
     font-size: 15pt;
+    color: black;
+    text-decoration: none;
 }
 
 #txt-ms a:hover
