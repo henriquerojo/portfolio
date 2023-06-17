@@ -203,7 +203,7 @@ header.rolagem #menu a:hover
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    box-shadow: 50px 30px white,
+    /* box-shadow: 50px 30px white,
     100px 80px white,
     80px 120px white,
     300px 20px white,
@@ -229,8 +229,15 @@ header.rolagem #menu a:hover
     675px 130px white,
     1700px 200px white,
     2200px 80px white,
-    3000px 70px white;
-
+    3000px 70px white; */
+    box-shadow: calc(50px * (1000 / 350)) calc(30px * (700 / 150)) white,
+              calc(100px * (1000 / 350)) calc(80px * (700 / 150)) white,
+              calc(80px * (1000 / 350)) calc(120px * (700 / 150)) white,
+              calc(300px * (1000 / 350)) calc(20px * (700 / 150)) white,
+              calc(250px * (1000 / 350)) calc(130px * (700 / 150)) white,
+              calc(200px * (1000 / 350)) calc(50px * (700 / 150)) white,
+              calc(150px * (1000 / 350)) calc(100px * (700 / 150)) white,
+              calc(320px * (1000 / 350)) calc(100px * (700 / 150)) white;
     animation: anim-stars 10s linear infinite;
     position: relative;
 	width: 3px;
@@ -240,10 +247,10 @@ header.rolagem #menu a:hover
 @keyframes anim-stars 
 {
     from {
-        transform: translateY(0px);
+        transform: translateY(0vh);
     }
     to {
-        transform: translateY(-150px);
+        transform: translateY(-100vh);
     }
 }
 
@@ -251,18 +258,26 @@ header.rolagem #menu a:hover
 {
     content: " ";
     position: absolute;
-    top: 150px;
+    top: 100vh;
     width: 3px;
     height: 3px;
     border-radius: 50%;
-    box-shadow: 50px 30px white,
+    /* box-shadow: 50px 30px white,
       100px 80px white,
       80px 120px white,
       300px 20px white,
       250px 130px white,
       200px 50px white,
       150px 100px white,
-      320px 100px white;
+      320px 100px white; */
+      box-shadow: calc(50px * (1000 / 350)) calc(30px * (700 / 150)) white,
+              calc(100px * (1000 / 350)) calc(80px * (700 / 150)) white,
+              calc(80px * (1000 / 350)) calc(120px * (700 / 150)) white,
+              calc(300px * (1000 / 350)) calc(20px * (700 / 150)) white,
+              calc(250px * (1000 / 350)) calc(130px * (700 / 150)) white,
+              calc(200px * (1000 / 350)) calc(50px * (700 / 150)) white,
+              calc(150px * (1000 / 350)) calc(100px * (700 / 150)) white,
+              calc(320px * (1000 / 350)) calc(100px * (700 / 150)) white;
 }
 
 .stars2
@@ -271,7 +286,7 @@ header.rolagem #menu a:hover
     width: 1px;
     height: 1px;
     border-radius: 50%;
-    box-shadow: 15px 15px white,
+    /* box-shadow: 15px 15px white,
       125px 35px white,
       50px 80px white,
       10px 120px white,
@@ -279,7 +294,16 @@ header.rolagem #menu a:hover
       230px 10px white,
       120px 130px white,
       300px 130px white,
-      220px 115px white;
+      220px 115px white; */
+      box-shadow: calc(15px * (1000 / 350)) calc(15px * (700 / 150)) white,
+              calc(125px * (1000 / 350)) calc(35px * (700 / 150)) white,
+              calc(50px * (1000 / 350)) calc(80px * (700 / 150)) white,
+              calc(10px * (1000 / 350)) calc(120px * (700 / 150)) white,
+              calc(275px * (1000 / 350)) calc(90px * (700 / 150)) white,
+              calc(230px * (1000 / 350)) calc(10px * (700 / 150)) white,
+              calc(120px * (1000 / 350)) calc(130px * (700 / 150)) white,
+              calc(300px * (1000 / 350)) calc(130px * (700 / 150)) white,
+              calc(220px * (1000 / 350)) calc(115px * (700 / 150)) white;
     animation: anim-stars 20s linear infinite;
 }
   
@@ -287,11 +311,11 @@ header.rolagem #menu a:hover
 {
     content: " ";
     position: absolute;
-    top: 150px;
+    top: 100vh;
     width: 1px;
     height: 1px;
     border-radius: 50%;
-    box-shadow: 15px 15px white,
+    /* box-shadow: 15px 15px white,
       125px 35px white,
       50px 80px white,
       10px 120px white,
@@ -299,7 +323,16 @@ header.rolagem #menu a:hover
       230px 10px white,
       120px 130px white,
       300px 130px white,
-      220px 115px white;
+      220px 115px white; */
+      box-shadow: calc(15px * (1000 / 350)) calc(15px * (700 / 150)) white,
+              calc(125px * (1000 / 350)) calc(35px * (700 / 150)) white,
+              calc(50px * (1000 / 350)) calc(80px * (700 / 150)) white,
+              calc(10px * (1000 / 350)) calc(120px * (700 / 150)) white,
+              calc(275px * (1000 / 350)) calc(90px * (700 / 150)) white,
+              calc(230px * (1000 / 350)) calc(10px * (700 / 150)) white,
+              calc(120px * (1000 / 350)) calc(130px * (700 / 150)) white,
+              calc(300px * (1000 / 350)) calc(130px * (700 / 150)) white,
+              calc(220px * (1000 / 350)) calc(115px * (700 / 150)) white;
 }  
 
 #texto-ai
