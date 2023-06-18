@@ -374,13 +374,24 @@ header.rolagem #menu a:hover
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #about article
 {
     width: 50%;
+}
+
+#titulo-about h1
+{
+    font-family: fonte4;
+    font-size: 50pt;
+}
+
+#titulo-about h1 span
+{
+    color: orange;
 }
 /* FIM ABOUT */
 
@@ -391,19 +402,121 @@ header.rolagem #menu a:hover
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--cor-skills);
 }
 
 #skills article
 {
     width: 50%;
 }
+
+#titulo-skills h1
+{
+    font-family: fonte4;
+    font-size: 50pt;
+    color: white;
+}
+
+#titulo-skills h1 span
+{
+    color: orange;
+}
+
+#icones-skills
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.icones
+{
+    display: inline-block;
+    border-radius: 20px;
+    background-color: #e7e7e7;
+    width: calc(33.33% - 20px);
+    border-width: 3px;
+    border-style: solid;
+    border-color: transparent;
+    margin-bottom: 20px;
+}
+
+.icones:hover
+{
+    border-color: blue;
+    transition: .3s;
+    transform: scale(1.05);
+}
+
+.icones:hover i, .icones:hover p
+{
+    color: blue;
+    transition: .3s;
+}
+
+.icones p
+{
+    font-family: fonte4;
+    color: black;
+}
 /* FIM SKILLS */
 
 /* INÍCIO PROJECT */
 
+#project
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#project article
+{
+    width: 50%;
+}
+
+#titulo-project h1
+{
+    color: black;
+    font-family: fonte4;
+    font-size: 50pt;
+}
 /* FIM PROJECT */
+
+/* INÍCIO CONTACT */
+#contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: var(--cor-skills);
+}
+
+#contact article
+{
+    width: 50%;
+}
+
+#titulo-contact h1
+{
+    color: orange;
+    font-family: fonte4;
+    font-size: 50pt;
+}
+#texto-contact p
+{
+    color: white;
+}
+
+/* FIM CONTACT */
 
 /* INÍCIO RODAPÉ */
 
