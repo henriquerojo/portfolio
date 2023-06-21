@@ -505,13 +505,79 @@ header.rolagem #menu a:hover
     border-color: transparent;
     margin-bottom: 20px;
     margin-left: 20px;
+    position: relative;
 }
 
+.projetos-overlay
+{
+    position: relative;
+    overflow: hidden;
+    border-radius: 17px;
+}
+
+.projetos-overlay:hover .projetos-info
+{
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.projetos-info
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: linear-gradient(to top, #120c56 0%,#000000 100%);
+    color: white;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: opacity 0.3s, transform 0.3s;
+    padding: 20px;
+    border-radius: 17px;
+}
+
+.projetos-info p
+{
+    margin-bottom: 10px;
+}
+
+.projetos-botao
+{
+    display: flex;
+    justify-content: center;
+}
+
+.projetos-botao button
+{
+    margin: 0 5px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #e7e7e7;
+}
+
+.projetos-botao button a
+{
+    padding: 10px;
+    text-decoration: none;
+    font-family: fonte4;
+}
+
+.projetos-botao button:hover
+{
+    background-color: black;
+}
+
+.projetos-botao button a:hover
+{
+    color: blue;
+}
 .img-proj
 {
     max-width: 100%;
     max-height: 100%;
-    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    border-radius: 17px;
 }
 
 .projetos:hover
@@ -613,6 +679,16 @@ header.rolagem #menu a:hover
     margin-left: 5px;
 }
 
+#mg-icon-map-wp
+{
+    margin-left: 5px;
+}
+
+.icon-map
+{
+    margin-left: 5px;
+    margin-right: 5px;
+}
 .al-ft
 {
     display: flex;
