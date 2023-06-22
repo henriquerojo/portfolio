@@ -169,6 +169,32 @@
                             </div>
                         </div>
                     </div>
+                    <div class="projetos">
+                        <div class="projetos-overlay">
+                            <img src="images/redhat.jpg" class="img-proj" alt="">
+                            <div class="projetos-info">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas sint doloremque repellat nam obcaecati aut hic ex quam laudantium dicta, deleniti explicabo quo vitae libero maiores quae sit qui!
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nostrum assumenda veritatis incidunt quidem est voluptate ipsum, optio id corrupti doloremque inventore, tempora deserunt at. Ab nulla in totam dicta!
+                                </p>
+                                <div class="projetos-botao">
+                                    <button><a href="https://verawd-502.notion.site/TI93-Pousada-do-Sossego-e2a49c3c7e4d45a7a081b3663f7382df" target="_blank" rel="noopener noreferrer">DOCUMENTACAO</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projetos">
+                        <div class="projetos-overlay">
+                            <img src="images/windows.jpg" class="img-proj" alt="">
+                            <div class="projetos-info">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quas sint doloremque repellat nam obcaecati aut hic ex quam laudantium dicta, deleniti explicabo quo vitae libero maiores quae sit qui!
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam nostrum assumenda veritatis incidunt quidem est voluptate ipsum, optio id corrupti doloremque inventore, tempora deserunt at. Ab nulla in totam dicta!
+                                </p>
+                                <div class="projetos-botao">
+                                    <button><a href="https://verawd-502.notion.site/TI93-Pousada-do-Sossego-e2a49c3c7e4d45a7a081b3663f7382df" target="_blank" rel="noopener noreferrer">DOCUMENTACAO</a></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
@@ -177,8 +203,24 @@
                 <div id="titulo-contact">
                     <h1>CONTATO</h1>
                 </div>
-                <div id="texto-contact">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat at maxime sed. Deleniti veritatis numquam obcaecati ratione nesciunt laborum quibusdam tempora optio eum, perferendis amet, necessitatibus delectus nobis ut dolorem.</p>
+                <div id="form-contato">
+                    <form action="contato_envia.php" method="post" name="form_contato" id="form_contato">
+                        <div class="input-group">
+                            <label for="nome" style="font-family: fonte4; color: white;">NOME: </label>
+                            <input type="text" name="nome" id="nome" placeholder="DIGITE SEU NOME" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="email" style="font-family: fonte4; color: white;">E-MAIL: </label>
+                            <input type="email" name="email" id="email" placeholder="DIGITE SEU EMAIL" required>
+                        </div>
+                        <div class="input-group">
+                            <label for="assunto" style="font-family: fonte4; color: white;">ASSUNTO: </label>
+                            <input type="text" name="assunto" id="assunto" placeholder="ASSUNTO" required>
+                        </div>
+                        <textarea name="Mensagem" id="Mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
+                        <br>
+                        <button aria-label="Enviar" role="button" style="align-self: center;">Enviar</button>
+                    </form>
                 </div>
             </article>
         </section>
