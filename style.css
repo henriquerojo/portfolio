@@ -58,6 +58,13 @@
     transition: .3s;
 }
 
+header #logo i:hover
+{
+    color: blue;
+    transition: .3s;
+    cursor: pointer;
+}
+
 header a, nav button
 {
     color: white;
