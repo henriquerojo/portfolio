@@ -401,6 +401,11 @@ header.rolagem #menu a:hover
 {
     color: orange;
 }
+
+#texto-about
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
 /* FIM ABOUT */
 
 /* INÍCIO SKILLS */
@@ -653,31 +658,39 @@ header.rolagem #menu a:hover
 }
 #form-contato input
 {
-    padding: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
     border-radius: 15px;
-    background-color: transparent;
-    border-right: none;
-    border-top: none;
-    border-left: none;
+    background-color: #e7e7e7;
+    border: none;
+    outline: none;
 }
 
 #form-contato input:active
 {
     border: none;
-    background-color: white;
+    background-color: none;
+    padding: 10px;
+    outline: none;
 }
 
 #form-contato input:focus
 {
     border: none;
-    background-color: white;
+    background-color: none;
+    padding: 10px;
+    outline: none;
 }
 
 #form-contato input:not(:placeholder-shown) 
 {
     border: none;
-    background-color: white;
+    background-color: none;
+    padding: 10px;
+    color: black;
+    outline: none;
 }
+
 
 #form-contato input[type="text"],
 #form-contato input[type="email"],
@@ -692,6 +705,15 @@ header.rolagem #menu a:hover
     max-width: 100%;
     max-height: 200px;
     min-width: 100%;
+    resize: none;
+    background-color: #e7e7e7;
+    outline: none;
+    border-radius: 15px;
+}
+
+#Mensagem
+{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #form-contato br 
@@ -705,7 +727,22 @@ header.rolagem #menu a:hover
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 10px;
+    border-radius: 15px;
+    align-self: center;
+    border: none;
+    font-family: fonte4;
+    font-size: 15pt;
 }
+
+#form-contato button:hover
+{
+    background-color: blue;
+    color: white;
+    transition: .3s;
+    cursor: pointer;
+}
+
 /* FIM CONTACT */
 
 /* INÍCIO RODAPÉ */
@@ -831,6 +868,7 @@ header.rolagem #menu a:hover
 #icon-rs a:hover
 {
     color: blue;
+    transition: .3s;
 }
 
 @font-face {
