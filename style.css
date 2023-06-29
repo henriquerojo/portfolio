@@ -129,6 +129,24 @@ header.rolagem #menu a:hover
         cursor: pointer;
     }
 
+    header #menu
+    {
+        background-color: black;
+    }
+
+    header.rolagem #menu
+    {
+        background-color: #e7e7e7;
+    }
+
+    header.rolagem #menu a
+    {
+    color: black;
+    text-decoration: none;
+    font-family: fonte4;  
+    font-weight: bold; 
+    }
+
     #menu
     {
         display: block;
