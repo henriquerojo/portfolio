@@ -661,7 +661,7 @@ header.rolagem #menu a:hover
 #form-contato label
 {
     margin-bottom: 5px;
-    display: inline-block;
+    /* display: inline-block; */
     width: 100px;
     color: white;
 }
@@ -680,6 +680,13 @@ header.rolagem #menu a:hover
     width: 100px;
     color: white;
 }
+
+.lbl-ctt
+{
+    font-family: fonte4;
+    color: white;
+}
+
 #form-contato input
 {
     margin-bottom: 5px;
@@ -937,7 +944,25 @@ header.rolagem #menu a:hover
         align-items: center;
     }
     /* FIM RESPONSIVO FOOTER */
+}
 
-    
+@media (max-width: 520px)
+{
+    /* INÍCIO RESPONSIVO CONTACT */
+    .input-group
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .input-group label, input
+    {
+        display: block;
+        width: 100%;
+        flex-grow: none;
+    }
+    /* FIM RESPONSIVO CONTACT */
 }
 /* FIM RESPONSIVO */
