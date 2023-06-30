@@ -902,5 +902,30 @@ header.rolagem #menu a:hover
 /* FIM RODAPÉ */
 
 /* INÍCIO RESPONSIVO */
+@media (max-width: 770px)
+{
+    footer article
+    {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+    }
 
+    footer article section
+    {
+        display: block;
+        width: 100%;
+    }
+
+    #redessociais
+    {
+        width: 100%;
+    }
+
+    #mapadosite
+    {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
 /* FIM RESPONSIVO */
