@@ -981,6 +981,21 @@ header.rolagem #menu a:hover
         margin-left: 20px;
         position: relative;
     }
+
+    .projetos-info p
+    {
+        display: none;
+    }
+
+    .projetos-botao
+    {
+        flex-direction: column;
+    }
+
+    .projetos-botao button
+    {
+        margin-bottom: 10px;
+    }
     /* FIM RESPONSIVO PROJECT */
 }
 
