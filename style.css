@@ -969,14 +969,52 @@ header.rolagem #menu a:hover
 @media (max-width: 1200px)
 {
     /* INÍCIO RESPONSIVO PROJECT */
-
+    .projetos
+    {
+        display: inline-block;
+        border-radius: 20px;
+        flex-basis: calc(100% - 20px);
+        border-width: 3px;
+        border-style: solid;
+        border-color: transparent;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        position: relative;
+    }
     /* FIM RESPONSIVO PROJECT */
 }
 
-@media (max-width: 840px)
+@media (min-width: 560px) and (max-width: 840px)
 {
-    /* INÍCIO RESPONSIVO SKILLS */
-    
-    /* FIM RESPONSIVO SKILLS */
+    /* INÍCIO RESPONSIVO SKILLS 1*/
+    .icones
+    {
+        display: inline-block;
+        border-radius: 20px;
+        background-color: #e7e7e7;
+        width: calc(50% - 20px);
+        border-width: 3px;
+        border-style: solid;
+        border-color: transparent;
+        margin-bottom: 20px;
+    }
+    /* FIM RESPONSIVO SKILLS 1*/
+}
+
+@media (max-width: 559px)
+{
+    /* INÍCIO RESPONSIVO SKILLS 2 */
+    .icones
+    {
+        display: inline-block;
+        border-radius: 20px;
+        background-color: #e7e7e7;
+        width: calc(100% - 20px);
+        border-width: 3px;
+        border-style: solid;
+        border-color: transparent;
+        margin-bottom: 20px;
+    }
+    /* FIM RESPONSIVO SKILLS 2 */
 }
 /* FIM RESPONSIVO */
