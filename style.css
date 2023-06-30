@@ -904,6 +904,7 @@ header.rolagem #menu a:hover
 /* INÍCIO RESPONSIVO */
 @media (max-width: 770px)
 {
+    /* INÍCIO RESPONSIVO FOOTER */
     footer article
     {
         display: flex;
@@ -927,5 +928,16 @@ header.rolagem #menu a:hover
         margin-top: 10px;
         width: 100%;
     }
+
+    #txt-ms
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* FIM RESPONSIVO FOOTER */
+
+    
 }
 /* FIM RESPONSIVO */
