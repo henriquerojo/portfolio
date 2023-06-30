@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 0;
 }
 /* FIM RESET CSS */
 
@@ -229,6 +230,7 @@ header.rolagem #menu a:hover
 /* INÍCIO ÁREA INICIAL */
 #area-inicial
 {
+    box-sizing: border-box;
     width: 100%;
     height: 700px;
     background: linear-gradient(0, #120c56, #000000);
@@ -398,6 +400,7 @@ header.rolagem #menu a:hover
 /* INÍCIO ABOUT */
 #about
 {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -431,6 +434,7 @@ header.rolagem #menu a:hover
 /* INÍCIO SKILLS */
 #skills
 {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -896,3 +900,7 @@ header.rolagem #menu a:hover
     src: url(font/fonte4.ttf);
 }
 /* FIM RODAPÉ */
+
+/* INÍCIO RESPONSIVO */
+
+/* FIM RESPONSIVO */
