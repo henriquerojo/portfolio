@@ -965,4 +965,18 @@ header.rolagem #menu a:hover
     }
     /* FIM RESPONSIVO CONTACT */
 }
+
+@media (max-width: 1200px)
+{
+    /* INÍCIO RESPONSIVO PROJECT */
+
+    /* FIM RESPONSIVO PROJECT */
+}
+
+@media (max-width: 840px)
+{
+    /* INÍCIO RESPONSIVO SKILLS */
+    
+    /* FIM RESPONSIVO SKILLS */
+}
 /* FIM RESPONSIVO */
