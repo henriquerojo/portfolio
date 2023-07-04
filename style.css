@@ -407,6 +407,8 @@ header.rolagem #menu a:hover
     text-align: center;
     padding-top: 100px;
     padding-bottom: 100px;
+    height: 100vh;
+    width: 100%;
 }
 
 #about article
@@ -442,6 +444,7 @@ header.rolagem #menu a:hover
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: var(--cor-skills);
+    height: 100vh;
 }
 
 #skills article
@@ -635,6 +638,8 @@ header.rolagem #menu a:hover
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: var(--cor-skills);
+    height: 100vh;
+    width: 100%;
 }
 
 #contact article
